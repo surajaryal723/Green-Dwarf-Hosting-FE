@@ -4,7 +4,8 @@ interface ButtonProps{
     size:'sm'|'md'|'lg',
     title:string,
     variant:'primary'|'secondary',
-    onClick?:()=>void
+    onClick?:()=>void,
+    className?:string
 
 }
 
@@ -26,8 +27,8 @@ const variantStyles={
 
 // define the default styles applied to all the buttons
 
-const defaultStyles='rounded-sm'
+const defaultStyles='rounded-sm hover:cursor-pointer'
 
 export default function Button(props:ButtonProps){
-    return <button onClick={props.onClick} className={`${sizeStyles[props.size]} ${variantStyles[props.variant]} ${defaultStyles}`}>{props.title}</button>
+    return <button onClick={props.onClick} className={`${sizeStyles[props.size]} ${variantStyles[props.variant]} ${defaultStyles} ${props.className}`}>{props.title}</button>
 }
