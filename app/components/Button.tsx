@@ -13,21 +13,21 @@ interface ButtonProps{
 
 const sizeStyles={
     'sm':'text-[1rem] px-4 py-2',
-    'md':'text-[1.2rem] py-3 px-8',
+    'md':'text-[1.1rem] py-3 px-8',
     'lg':'text-[1.4rem] py-4 px-10'
 }
 
 // define tailwind classes for various button variants
 
 const variantStyles={
-    'primary':'bg-[#EFEEEC]',
-    'secondary':'bg-[#4e148c] text-white'
+    'primary':'bg-[#EFEEEC] hover:bg-white ',
+    'secondary':'bg-[#4e148c] text-white hover:bg-purple-900'
 }
 
 
 // define the default styles applied to all the buttons
 
-const defaultStyles='rounded-sm hover:cursor-pointer'
+const defaultStyles='rounded-sm hover:cursor-pointer transition-all ease-linear'
 
 export default function Button(props:ButtonProps){
     return <button onClick={props.onClick} className={`${sizeStyles[props.size]} ${variantStyles[props.variant]} ${defaultStyles} ${props.className}`}>{props.title}</button>

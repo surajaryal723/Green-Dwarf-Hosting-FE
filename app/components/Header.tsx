@@ -1,7 +1,7 @@
 
-import Logo from "./Logo";
-import NavLinks from "./NavLinks";
-import AuthButtons from "./AuthButtons";
+import Logo from "./header/Logo";
+import NavLinks from "./header/NavLinks";
+import AuthButtons from "./header/AuthButtons";
 
 export default function Header() {
   return (

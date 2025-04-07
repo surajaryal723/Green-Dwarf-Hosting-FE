@@ -1,5 +1,5 @@
 "use client"
-import Button from "./Button";
+import Button from "../Button";
 import Link from "next/link";
 import gsap from "gsap";
 import { useLayoutEffect,useRef } from "react";
