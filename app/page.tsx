@@ -1,19 +1,21 @@
-import Hero from "./components/home/Hero"
-import About from "./components/home/About"
+import Hero from "./components/home/Hero";
+import About from "./components/home/About";
+import Plans from "./components/home/Plans";
+
 export default function Home() {
-  return <>
-  <div className="w-full">
+  return (
+    <>
+      <div className="w-full">
+        {/* hero section */}
+        <Hero />
 
+        {/* About the company */}
 
-    {/* hero section */}
-    <Hero/>
+        <About />
 
-{/* About the company */}
-
-<About/>
-  </div>
-  </>
-
-
-
+        {/* Hosting Plans Summary */}
+        <Plans/>
+      </div>
+    </>
+  );
 }

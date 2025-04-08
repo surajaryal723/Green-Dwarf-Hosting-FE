@@ -5,6 +5,8 @@ import Button from "../Button";
 import Boundary from "../Boundry";
 import { ScrollTrigger } from "gsap/all";
 import Image from "next/image";
+import Link from "next/link";
+
 
 
 export default function About() {
@@ -110,11 +112,13 @@ export default function About() {
 
         <div className="opacity-0 animate-opacity">
           <Boundary>
+            <Link href="/about">
             <Button
               variant="secondary"
               size="md"
               title="Get More Information"
             />
+            </Link>
           </Boundary>
         </div>
       </div>
