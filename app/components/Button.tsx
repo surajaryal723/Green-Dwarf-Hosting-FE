@@ -21,7 +21,7 @@ const sizeStyles={
 
 const variantStyles={
     'primary':'bg-[#EFEEEC] hover:bg-white ',
-    'secondary':'bg-[#4e148c] text-white hover:bg-purple-900'
+    'secondary':'bg-[#153668] text-white hover:bg-blue-900'
 }
 
 
