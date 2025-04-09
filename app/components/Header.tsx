@@ -5,7 +5,7 @@ import AuthButtons from "./header/AuthButtons";
 
 export default function Header() {
   return (
-    <div className="w-full px-[100px] py-[20px] bg-transparent flex items-center justify-between  -mb-[100px] absolute z-10">
+    <header className="w-full px-[100px] py-[20px] md:px-[30px] sm:px-[20px] bg-transparent flex items-center justify-between  -mb-[100px] absolute z-10">
       {/* Logo Container */}
 
       
@@ -20,6 +20,6 @@ export default function Header() {
       
 <AuthButtons/>
 
-    </div>
+    </header>
   );
 }

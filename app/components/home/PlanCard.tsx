@@ -12,7 +12,7 @@ interface planCardProps {
 export default function PlanCard(props: planCardProps) {
   return (
     <div
-      className={`w-[25%] bg-[#EFEEEC] p-[30px] rounded-sm flex flex-col gap-4 relative translate-y-[105%]`}
+      className={`w-[25%] bg-[#EFEEEC] p-[30px] rounded-sm flex flex-col gap-4 relative translate-y-[105%] plan-card`}
     data-hosting-plan-animate>
       <h3 className="text-[1.4rem] font-[600]">{props.title}</h3>
       <h4 className="">

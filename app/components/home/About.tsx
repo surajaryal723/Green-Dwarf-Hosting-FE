@@ -50,25 +50,25 @@ export default function About() {
 
   return (
     <div
-      className="w-full p-[100px] flex justify-between bg-[#EFEEEC]"
+      className="w-full p-[100px] flex justify-between bg-[#EFEEEC] about"
       ref={containerRef}
     >
-      <div className="w-1/2 flex flex-col gap-4">
+      <div className="w-1/2 flex flex-col gap-4 ab-left">
         {/* about content heading */}
 
         <div>
           <Boundary>
-            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y">
+            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y section-heading">
               Powering Your Online Presence with{" "}
             </h2>
           </Boundary>
           <Boundary>
-            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y">
+            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y section-heading">
               Reliable, Eco-Friendly Web Hosting{" "}
             </h2>
           </Boundary>
           <Boundary>
-            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y">
+            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y section-heading">
               Solutions
             </h2>
           </Boundary>
@@ -122,7 +122,7 @@ export default function About() {
           </Boundary>
         </div>
       </div>
-      <div className="w-1/2 flex justify-end ">
+      <div className="w-1/2 flex justify-end ab-right">
       <Image src={'/about.svg'} alt="about-image" height={"100"} width={"100"} className="w-[80%] about-img" style={{clipPath:'polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)'}}/>
       </div>
     </div>

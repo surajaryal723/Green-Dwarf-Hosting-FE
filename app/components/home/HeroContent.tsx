@@ -35,12 +35,12 @@ export default function HeroContent() {
     >
       <div className="w-full flex justify-center items-center flex-col ">
         <Boundary>
-          <h1 className="text-white text-[5rem] text-center leading-[6rem] font-[500] animate-y translate-y-[100%]">
+          <h1 className="hero-heading text-white text-[5rem] text-center leading-[6rem] font-[500] animate-y translate-y-[100%]">
             Fast, Secure & Scalable
           </h1>
         </Boundary>
         <Boundary>
-          <h2 className="text-white text-[5rem] text-center leading-[6rem] font-[500] animate-y translate-y-[100%]">
+          <h2 className="hero-heading text-white text-[5rem] text-center leading-[6rem] font-[500] animate-y translate-y-[100%]">
             Hosting Solutions!
           </h2>
         </Boundary>

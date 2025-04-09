@@ -24,7 +24,7 @@ export default function NavLinks() {
   return (
     <nav
       ref={navRef}
-      className="w-[50%] flex items-center justify-center gap-x-8"
+      className="w-[50%] flex items-center justify-center gap-x-8 navbar"
     >
       <NavLink linkText="Home" url="/" />
       <NavLink linkText="About Us" url="/about" />

@@ -4,7 +4,9 @@
     --secondary-color: #153668;
 }
 
-@theme inline {}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .testimonial-card {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -14,18 +16,131 @@
     background-image: linear-gradient(270deg, #fff0 70%, #fff), linear-gradient(270deg, #fff, #fff0 30%)
 }
 
-
-/* .testimonials {
-    animation: move 10s linear infinite;
-    transition: transform 0.5s ease;
+.hamburger {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
 }
 
-@keyframes move {
-    to {
-        transform: translateX(calc(-100% - 20px));
-    }
-} */
+.hamburger .line {
+    width: 40px;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+#hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(7px) rotate(45deg);
+    -ms-transform: translateY(7px) rotate(45deg);
+    -o-transform: translateY(7px) rotate(45deg);
+    transform: translateY(7px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-15px) rotate(-45deg);
+    -ms-transform: translateY(-15px) rotate(-45deg);
+    -o-transform: translateY(-15px) rotate(-45deg);
+    transform: translateY(-15px) rotate(-45deg);
+}
+
+@media(max-width:1024px) {
+    .auth-btn,
+    .navbar {
+        display: none;
+    }
+    .logo-container {
+        width: 50%;
+    }
+    .logo-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:840px) {
+    .hero,
+    .about,
+    .plans {
+        padding: 50px 30px;
+    }
+    .footer {
+        padding-inline: 30px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .ab-left,
+    .ab-right {
+        width: 100%;
+    }
+    .hero-heading {
+        font-size: 64px;
+        line-height: 70px;
+    }
+    .hero p {
+        font-size: 22px;
+    }
+    .plan-cards {
+        flex-wrap: wrap;
+    }
+    .plan-card {
+        width: 48%;
+    }
+    .testimonials {
+        width: 200%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .ftl,
+    .ftr {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        padding: 20px;
+    }
+    .logo-container {
+        width: 70%;
+    }
+    .hero,
+    .about,
+    .plans {
+        padding: 50px 20px !important;
+    }
+    .footer {
+        padding-inline: 20px;
+    }
+    .hero-heading {
+        font-size: 36px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .section-heading {
+        font-size: 22px;
+    }
+    .plan-card {
+        width: 100%;
+    }
+    .testimonials {
+        width: 400%;
+    }
+    .testimonial-card {
+        width: 18% !important;
+        justify-content: center;
+    }
+    .ftl,
+    .ftr {
+        width: 100%;
+    }
 }

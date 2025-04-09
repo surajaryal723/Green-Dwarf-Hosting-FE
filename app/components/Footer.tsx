@@ -30,11 +30,11 @@ export default function Footer() {
   }, []);
 
   return (
-    <div
-      className="w-full px-[100px] py-[30px] flex items-center bg-[var(--primary-color)]"
+    <footer
+      className="w-full px-[100px] py-[30px] flex items-center bg-[var(--primary-color)] footer"
       ref={containerRef}
     >
-      <div className="w-1/2">
+      <div className="w-1/2 ftl">
         <Boundary>
           <h4 className="text-white translate-y-[100%] animate-y">
             Copyright &copy; <span>{new Date().getFullYear()}</span> - Green
@@ -42,7 +42,7 @@ export default function Footer() {
           </h4>
         </Boundary>
       </div>
-      <div className="w-1/2 flex items-center justify-end gap-4">
+      <div className="w-1/2 flex items-center justify-end gap-4 ftr">
         <Boundary>
           <Link
             href={"/"}
@@ -76,6 +76,6 @@ export default function Footer() {
           </Link>
         </Boundary>
       </div>
-    </div>
+    </footer>
   );
 }

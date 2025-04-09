@@ -26,9 +26,9 @@ export default function Logo(){
     }, []);
 
 
-    return <div className="w-[25%] overflow-hidden">
+    return <div className="w-[25%] overflow-hidden logo-container">
       <Link href={"/"}>
-    <h2 className="text-white translate-y-[100%] text-4xl flex gap-x-2 items-center" ref={logoRef}>
+    <h2 className="text-white translate-y-[100%] text-4xl  flex gap-x-2 items-center logo-text" ref={logoRef}>
       green dwarf <sup className="text-[14px] opacity-[0.7]">TM</sup>
     </h2>
   </Link>

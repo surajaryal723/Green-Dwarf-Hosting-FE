@@ -80,7 +80,7 @@ export default function Testimonials(){
     return <div className="w-full  bg-[#EFEEEC] py-[100px] flex flex-col overflow-hidden" ref={containerRef}>
         <div className="w-full flex justify-center">
             <Boundary>
-            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y text-black">
+            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y text-black section-heading">
           Customer Testimonials
         </h2>
             </Boundary>
