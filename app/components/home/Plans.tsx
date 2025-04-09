@@ -17,8 +17,8 @@ export default function Plans() {
             const tl=gsap.timeline({
                 scrollTrigger:{
                     trigger:containerRef.current,
-                    start:'top 50%',
-                    markers:true
+                    start:'top 70%',
+                    
                 }
             })
             tl.to(".animate-y",{

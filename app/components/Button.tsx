@@ -20,7 +20,7 @@ const sizeStyles={
 // define tailwind classes for various button variants
 
 const variantStyles={
-    'primary':'bg-[#EFEEEC] hover:bg-white ',
+    'primary':'bg-[#EFEEEC] text-black hover:bg-white',
     'secondary':'bg-[#153668] text-white hover:bg-blue-900'
 }
 
