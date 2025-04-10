@@ -69,7 +69,11 @@ body {
 @media (max-width:840px) {
     .hero,
     .about,
-    .plans {
+    .plans,
+    .history,
+    .mission,
+    .benefits,
+    .contact {
         padding: 50px 30px;
     }
     .footer {
@@ -108,6 +112,19 @@ body {
     .hero-desc {
         width: 100%;
     }
+    .history {
+        flex-direction: column;
+    }
+    .hl,
+    .hr,
+    .cl,
+    .cr {
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+        gap: 50px;
+    }
 }
 
 @media (max-width:600px) {
@@ -119,8 +136,15 @@ body {
     }
     .hero,
     .about,
-    .plans {
+    .plans,
+    .history,
+    .mission,
+    .benefits,
+    .contact {
         padding: 50px 20px !important;
+    }
+    .cl {
+        padding-right: 0;
     }
     .footer {
         padding-inline: 20px;
@@ -148,5 +172,24 @@ body {
     .ftl,
     .ftr {
         width: 100%;
+    }
+    .mission-desc {
+        width: 100%;
+    }
+    .benefit-card {
+        width: 100%;
+    }
+    .benefit-cards {
+        flex-direction: column;
+    }
+    .hl {
+        padding-right: 0;
+    }
+    .breadcrumb {
+        padding-inline: 20px;
+    }
+    .form-fields {
+        flex-direction: column;
+        gap: 40px;
     }
 }

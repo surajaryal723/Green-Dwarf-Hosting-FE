@@ -57,7 +57,7 @@ export default function About() {
             </h2>
           </Boundary>
         </div>
-        <p className="text-white text-center w-[70%]">
+        <p className="text-white text-center w-[70%] mission-desc">
           At Green Dwarf Hosting, our mission is to deliver high-performance,
           secure, and sustainable web hosting solutions that empower businesses,
           creators, and developers to thrive online — without compromising the
@@ -74,7 +74,7 @@ export default function About() {
             </h2>
           </Boundary>
         </div>
-        <div className="w-full flex justify-between mt-10 gap-5" >
+        <div className="w-full flex justify-between mt-10 gap-5 benefit-cards" >
           <BenefitCard icon="/bolt.svg" title="Blazing Fast Servers" description="We use the latest SSD and NVMe storage combined with cutting-edge server technology to deliver ultra-fast load times and optimal performance for every website. Whether you're running a personal blog or a high-traffic eCommerce store, speed is never compromised." />
           <BenefitCard icon="/padlock.svg" title="Advanced Security " description="Security is at the heart of everything we do. With built-in DDoS protection, regular malware scanning, proactive firewalls, and free SSL certificates, your site is safeguarded against online threats 24/7. We also offer automatic backups to ensure your data is never lost." />
           <BenefitCard icon="/support.svg" title="24/7 Real Human Support" description="Have a question or run into an issue? Our expert support team is available 24/7 via live chat, email, or ticket system. We’re not just fast — we’re helpful, friendly, and obsessed with solving your problems quickly and effectively." />

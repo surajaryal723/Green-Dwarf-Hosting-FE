@@ -48,7 +48,8 @@ export default function AuthButtons() {
         <span className="line"></span>
         <span className="line"></span>
       </div>
-      <div className={`mobile-menu md:w-1/2 ${menuActive?'translate-x-[100%]':'translate-x-[200%]'} ${menuActive?'sm:translate-x-0':''} py-[100px] px-[30px] h-screen bg-[var(--primary-color)] fixed inset-0 flex flex-col lg-hidden gap-8 transition-all ease-in duration-300`}>
+      <div className={`mobile-menu ${menuActive ? 'translate-x-0' : 'translate-x-[200%]'} py-[100px] px-[30px] h-screen bg-[var(--primary-color)] fixed inset-0 flex flex-col lg:hidden gap-8 transition-all ease-in duration-300`}>
+
         <Boundary>
           <Link href={"/"}>
           <h4 className="text-white  text-4xl">Home</h4>
