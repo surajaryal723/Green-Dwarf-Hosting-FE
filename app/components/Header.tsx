@@ -20,6 +20,7 @@ export default function Header() {
       
 <AuthButtons/>
 
+
     </header>
   );
 }

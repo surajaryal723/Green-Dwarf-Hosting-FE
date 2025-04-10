@@ -59,19 +59,10 @@ export default function About() {
         <div>
           <Boundary>
             <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y section-heading">
-              Powering Your Online Presence with{" "}
+              About Green Dwarf Hosting
             </h2>
           </Boundary>
-          <Boundary>
-            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y section-heading">
-              Reliable, Eco-Friendly Web Hosting{" "}
-            </h2>
-          </Boundary>
-          <Boundary>
-            <h2 className="text-[2.2rem] leading-[2.8rem] translate-y-[100%] animate-y section-heading">
-              Solutions
-            </h2>
-          </Boundary>
+         
         </div>
 
         {/* about content paragraph */}
@@ -79,35 +70,18 @@ export default function About() {
         <div>
           <Boundary>
             <p className="translate-y-[100%] animate-y">
-              Green Dwarf Hosting is a reliable and eco-friendly web hosting
-              company dedicated to helping
-            </p>
-          </Boundary>
-          <Boundary>
-            <p className="translate-y-[100%] animate-y">
-              individuals and businesses establish a strong online presence.
-              With a focus on sustainability,
-            </p>
-          </Boundary>
-          <Boundary>
-            <p className="translate-y-[100%] animate-y">
-              speed, and top-notch customer support, Green Dwarf Hosting offers
-              a range of hosting solutions—from shared and cloud hosting to
-              dedicated servers. Our mission is to make web
-            </p>
-          </Boundary>
+            Green Dwarf Hosting is a reliable and eco-friendly web hosting company dedicated to helping
 
-          <Boundary>
-            <p className="translate-y-[100%] animate-y">
-              hosting simple, affordable, and environmentally conscious,
-              empowering clients to grow their
+individuals and businesses establish a strong online presence. With a focus on sustainability,
+
+speed, and top-notch customer support, Green Dwarf Hosting offers a range of hosting solutions—from shared and cloud hosting to dedicated servers. Our mission is to make web
+
+hosting simple, affordable, and environmentally conscious, empowering clients to grow their
+
+digital footprint while minimizing their carbon impact.
             </p>
           </Boundary>
-          <Boundary>
-            <p className="translate-y-[100%] animate-y">
-              digital footprint while minimizing their carbon impact.
-            </p>
-          </Boundary>
+         
         </div>
 
         <div className="opacity-0 animate-opacity">

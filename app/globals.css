@@ -20,6 +20,8 @@ body {
     background-color: #fff;
     padding: 15px;
     border-radius: 50%;
+    position: relative;
+    z-index: 99;
 }
 
 .hamburger .line {
@@ -103,6 +105,9 @@ body {
     .ftr {
         width: 100%;
     }
+    .hero-desc {
+        width: 100%;
+    }
 }
 
 @media (max-width:600px) {
@@ -122,12 +127,13 @@ body {
     }
     .hero-heading {
         font-size: 36px;
+        line-height: 40px;
     }
     .hero p {
         font-size: 16px;
     }
     .section-heading {
-        font-size: 22px;
+        font-size: 28px;
     }
     .plan-card {
         width: 100%;

@@ -3,7 +3,7 @@
 import { ReactNode } from "react";
 
 export default function Boundary({children}:{children:ReactNode}){
-    return <div className="w-fit overflow-hidden">
+    return <div className="w-fit overflow-hidden flex justify-center">
         {children}
     </div>
 }
